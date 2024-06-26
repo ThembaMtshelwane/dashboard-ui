@@ -6,7 +6,8 @@ const Main = () => {
     <section className={styles.mainContainer}>
       <Card />
       <Card />
-      <Card /> <Card />
+      <Card /> 
+      <Card />
       <Card />
       <Card />
       <Card />

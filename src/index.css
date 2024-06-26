@@ -6,8 +6,10 @@
   box-sizing: border-box;
 }
 
+body {
+}
+
 main {
-  /* border: 2px solid green; */
   height: 100vh;
   margin: auto;
 }
