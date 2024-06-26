@@ -1,0 +1,48 @@
+.menuContainer {
+  border: 2px solid;
+  border-radius: 0px 20px 20px 0px;
+  width: 250px;
+  height: 100vh;
+  padding: 0px 10px;
+}
+
+.topSection {
+  margin-top: 10px;
+  padding: 0px 10px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.backArrow {
+  font-size: 2rem;
+}
+
+.listContainer {
+  padding: 10px;
+  list-style: none;
+}
+
+li {
+  border: 2px solid;
+  padding: 20px 0px;
+  margin: 10px 0px;
+  text-align: center;
+  font-size: 1.2rem;
+  border-radius: 10px;
+}
+
+li:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+}
+
+.backArrow:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
