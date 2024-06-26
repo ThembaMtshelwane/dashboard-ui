@@ -1,12 +1,12 @@
 .mainContainer {
-  /* border: 2px solid green; */
-  /* background-color: rgba(0, 128, 0, 0.308); */
+  border: 2px solid green;
+  background-color: rgba(0, 128, 0, 0.308);
   padding: 15px;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
 
-  position: relative;
-  z-index: -2;
+  position: absolute;
+  z-index: 1;
   top: 70px;
 }

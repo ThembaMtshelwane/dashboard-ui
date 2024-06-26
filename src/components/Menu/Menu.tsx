@@ -18,16 +18,24 @@ const Menu = ({ toggleMenu, setToggleMenu }: Props) => {
           </section>
           <ul className={styles.listContainer}>
             <li className={styles.menuItem}>
-              <a href="">Item 1</a>
+              <a className={styles.menuLink} href="">
+                Item 1
+              </a>
             </li>
             <li className={styles.menuItem}>
-              <a href="">Item 2</a>
+              <a className={styles.menuLink} href="">
+                Item 2
+              </a>
             </li>
             <li className={styles.menuItem}>
-              <a href="">Item 3</a>
+              <a className={styles.menuLink} href="">
+                Item 3
+              </a>
             </li>
             <li className={styles.menuItem}>
-              <a href="">Item 4</a>
+              <a className={styles.menuLink} href="">
+                Item 4
+              </a>
             </li>
           </ul>
         </section>
