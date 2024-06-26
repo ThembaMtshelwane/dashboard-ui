@@ -9,16 +9,16 @@ const Menu = (props: Props) => {
         <FaAngleLeft className={styles.backArrow} />
       </section>
       <ul className={styles.listContainer}>
-        <li>
+        <li className={styles.menuItem}>
           <a href="">Item 1</a>
         </li>
-        <li>
+        <li className={styles.menuItem}>
           <a href="">Item 2</a>
         </li>
-        <li>
+        <li className={styles.menuItem}>
           <a href="">Item 3</a>
         </li>
-        <li>
+        <li className={styles.menuItem}>
           <a href="">Item 4</a>
         </li>
       </ul>

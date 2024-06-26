@@ -1,0 +1,50 @@
+nav {
+  border: 2px solid;
+  display: flex;
+  align-items: center;
+  height: 70px;
+}
+
+.navbarList {
+  /* border: 2px solid blue; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+  list-style: none;
+  width: 100%;
+}
+
+.navbarItem {
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+}
+
+.leftNavSection {
+  min-width: 260px;
+  width: 57%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hamburgerIcon {
+  font-size: 1.5rem;
+}
+
+.logo {
+  border-radius: 50%;
+  border: 2px solid;
+  width: 50px;
+  height: 50px;
+}
+
+h1:hover,
+.logo:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+}
+
+.hamburgerIcon:hover {
+  transform: scale(1.05);
+}

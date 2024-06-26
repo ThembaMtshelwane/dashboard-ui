@@ -23,7 +23,7 @@
   list-style: none;
 }
 
-li {
+.menuItem {
   border: 2px solid;
   padding: 20px 0px;
   margin: 10px 0px;
@@ -32,7 +32,7 @@ li {
   border-radius: 10px;
 }
 
-li:hover {
+.menuItem:hover {
   cursor: pointer;
   transform: scale(1.02);
 }
