@@ -6,11 +6,10 @@ nav {
 }
 
 .navbarList {
-  /* border: 2px solid blue; */
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0px 10px;
+  padding: 0px 20px;
   list-style: none;
   width: 100%;
 }
@@ -22,8 +21,9 @@ nav {
 }
 
 .leftNavSection {
-  min-width: 260px;
-  width: 57%;
+  min-width: 230px;
+  width: 60%;
+  max-width: 700px;
   display: flex;
   justify-content: space-between;
 }
